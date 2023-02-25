@@ -1,26 +1,17 @@
 import "./App.css"
+import CaughtPokemon from "./CaughtPokemon";
+import Logo from "./Logo"
+import BestPokemon from "./BestPokemon"
+
 
 function App() {
   return (
-    <div>
-      <Logo />
+    <div className="App">
+      <Logo appName="Hadi" />
       <BestPokemon />
+      <CaughtPokemon />
   </div>
   )
-}
-
-const Logo = () => {
-  return <header> 
-            <div className="App">
-             <h1>Welcome to the Pokedex</h1>
-             <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png" alt="pokedex" />
-            </div>
-          </header>
-          
-}
-
-const BestPokemon = () => {
-  return <p>My favorite Pokemon is Squirtle</p>
 }
 
 export default App;

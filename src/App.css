@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: left;
 }
 
 .App-logo {
@@ -7,8 +7,8 @@
   pointer-events: none;
 }
 
-p {
-  margin-left: 280px;
+.App {
+  margin: 0 auto;
 }
 
 @media (prefers-reduced-motion: no-preference) {
